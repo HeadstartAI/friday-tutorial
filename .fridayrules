@@ -1,0 +1,37 @@
+# Friday Tutorial Project Rules
+
+## Code Base Architecture
+The project currently has a minimal structure:
+- Root directory contains only README.md
+- No source code files or subdirectories yet
+
+## Development Guidelines
+
+### Project Setup
+1. Clone the repository
+2. No additional setup required at this time
+
+### Code Organization
+As the project grows, follow these guidelines:
+- Source code should be placed in a `src/` directory
+- Tests should be placed in a `tests/` directory
+- Documentation should be placed in a `docs/` directory
+
+## Testing Guidelines
+
+### Running Tests
+No testing framework is currently implemented.
+
+When tests are added:
+1. Use a standard testing framework appropriate for the project language
+2. Run tests with the framework's standard command
+3. Ensure all tests pass before committing changes
+
+## Linting Guidelines
+
+No linting configuration is currently present.
+
+When linting is added:
+1. Use a standard linter appropriate for the project language
+2. Run the linter before committing changes
+3. Fix all linting issues or document exceptions
