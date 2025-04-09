@@ -2,6 +2,10 @@
 
 A virtual guestbook application that allows engineers to contribute SVG icons as components through PRs. The guestbook displays these icons along with personal messages, creating a collaborative wall of memories and contributions.
 
+## Friday Fun
+
+Why did Friday become an AI assistant? Because it heard Monday through Thursday were already "working" days! 😄
+
 ## Project Structure
 
 - `/client` - React TypeScript frontend
