@@ -2,83 +2,28 @@
 
 ## Code Base Architecture
 
-- /client - React TypeScript frontend
+- /client - Next.js TypeScript frontend
   - /client/src/components - React components for the guestbook UI
   - /client/src/icons - SVG icon components contributed by users
-  - /client/src/App.tsx - Main application component
-- /server - Node.js/Express TypeScript backend
-  - /server/src/index.ts - Express server setup
-  - /server/src/guestbook.json - Data storage for guestbook entries
+  - /client/src/data - Contains guestbook.json for data storage
+  - /client/pages - Next.js page components
 
 ## Development Setup
 
-- Client: `cd client && npm install && npm start` (runs on port 3000)
-- Server: `cd server && npm install && npm run dev` (runs on port 3001)
-
-## Workflow Guidelines
-
-- Create a new branch for each guestbook entry
-- Name branches with format: feature/guestbook-entry-[username]-[date]
-- Ensure SVG icons are optimized and render well at all sizes
-- Include a personal message with each guestbook entry
-- Ensure icon names are unique
-- Ask clarifying questions if the user hasn't provided a personal message or icon description
-
-## Coding Standards
-
-- Use TypeScript for all new components
-- Follow existing code style and formatting
-- SVG icons should be created as React components in the client/src/icons directory
-- Each icon component should accept standard props like color, size, className, and style
-
-## Guestbook Entry Requirements
-
-- Each entry must have a unique ID and component name
-- Create a corresponding icon component in client/src/icons directory
-- Include contributor name and date
-- Personal message should be meaningful and related to your experience
-- Add your new icon component to the icons/index.ts file
-
-## Content Guidelines
-
-- All content must be appropriate for a public page with a broad audience
-- No inappropriate, indecent, or unprofessional messages or icons
-- No offensive, explicit, or controversial content
-- No political, religious, or divisive messaging
-- Icons and messages should be positive, constructive, and respectful
-- Content should be suitable for all ages and professional environments
-
-## Icon Generation Guidelines
-
-- Icons should be AI-generated SVG files
-- SVG dimensions should be 24x24 viewBox
-- Use simple, clean designs with limited colors
-- Icons should be meaningful and related to the contributor or their message
-- Icons must adhere to the Content Guidelines (no inappropriate imagery)
-- SVG code should be optimized and minified
-- Ensure the SVG has no external dependencies
-- Test that the icon renders correctly at different sizes (S, M, L, XL)
-- Icons should have unique names from each other
-- Only the original github user of that icon can update it. Other github users have to create a new icon file with a new name
+- Client: `cd client && npm install && npm run dev` (runs on default Next.js port)
 
 ## Testing Guidelines
 
-- Client: Run tests with `cd client && npm test`
-  - Uses React Testing Library via react-scripts
-- Server: No automated tests currently implemented
+- No explicit testing configuration is currently set up in the project
+- To add tests, consider using Jest and React Testing Library with Next.js
 
 ## Linting Guidelines
 
-- Client: Uses ESLint with react-app configuration
+- Client: Uses ESLint with next/core-web-vitals configuration
   - Configuration in client/package.json under "eslintConfig"
-- Server: No explicit linting configuration
+  - Run linting with `cd client && npx eslint .`
 
-## Build Process
+## Build and Deployment
 
-- Client: `cd client && npm run build`
-- Server: `cd server && npm run build` (compiles TypeScript)
-
-## Deployment
-
-- Server: `cd server && npm start` to run the compiled server
-- Client: Deploy the build folder to a static hosting service
+- Build: `cd client && npm run build`
+- Start: `cd client && npm start` (runs on port 3002)
