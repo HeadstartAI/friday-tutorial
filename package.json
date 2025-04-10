@@ -33,12 +33,12 @@
       "next/core-web-vitals"
     ]
   },
-  "name": "virtual-guestbook-client",
+  "name": "virtual-guestbook",
   "private": true,
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start -p 3002"
+    "start": "next start -p 3000"
   },
   "version": "0.1.0"
 }
