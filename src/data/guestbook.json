@@ -1,5 +1,13 @@
 [
   {
+    "componentName": "BookIcon",
+    "contributor": "Sophia",
+    "date": "2025-04-24T19:45:00.000Z",
+    "githubUsername": "sophiafeng",
+    "id": "book-icon",
+    "message": "Hello from the pages of knowledge! May your code be as enlightening as a good book."
+  },
+  {
     "componentName": "MoonIcon",
     "contributor": "Sal Hernandez",
     "date": "2025-04-22T11:56:23.000Z",
