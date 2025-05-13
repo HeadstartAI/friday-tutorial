@@ -4,13 +4,15 @@ import SmileyIcon from './SmileyIcon';
 import CompassIcon from './CompassIcon';
 import RobotIcon from './RobotIcon';
 import MoonIcon from './MoonIcon';
+import CoffeeIcon from './CoffeeIcon';
 
 const iconComponents: Record<string, React.FC<any>> = {
   StarIcon,
   SmileyIcon,
   CompassIcon,
   RobotIcon,
-  MoonIcon
+  MoonIcon,
+  CoffeeIcon
 };
 
 export default iconComponents;
