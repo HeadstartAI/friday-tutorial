@@ -6,6 +6,37 @@
     "githubUsername": "nityeshaga",
     "id": "tree-icon",
     "message": "Growing together through code, branching out with new ideas!"
+  },{
+    "componentName": "MusicNoteIcon",
+    "contributor": "Veda Bhalla",
+    "date": "2025-06-02T12:13:37.000Z",
+    "githubUsername": "bhalla-v",
+    "id": "music-note-icon",
+    "message": "Harmonizing code and creativity! May your development journey be filled with beautiful melodies."
+  },
+  {
+    "componentName": "PlanetIcon",
+    "contributor": "Omar Rida",
+    "date": "2025-04-30T14:42:31.000Z",
+    "githubUsername": "omarrida-sim",
+    "id": "planet-icon",
+    "message": "Greetings from another world! May your code orbit smoothly around all bugs."
+  },
+  {
+    "componentName": "CoffeeIcon",
+    "contributor": "Quin",
+    "date": "2025-05-12T21:13:49.000Z",
+    "githubUsername": "quin-srp",
+    "id": "coffee-icon",
+    "message": "Brewing up some code with a fresh cup of inspiration! Cheers to collaborative development."
+  },
+  {
+    "componentName": "BookIcon",
+    "contributor": "Sophia",
+    "date": "2025-04-24T19:45:00.000Z",
+    "githubUsername": "sophiafeng",
+    "id": "book-icon",
+    "message": "Hello from the pages of knowledge! May your code be as enlightening as a good book."
   },
   {
     "componentName": "MoonIcon",
