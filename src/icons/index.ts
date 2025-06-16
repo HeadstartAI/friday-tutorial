@@ -8,6 +8,7 @@ import PlanetIcon from './PlanetIcon';
 import CoffeeIcon from './CoffeeIcon';
 import BookIcon from './BookIcon';
 import MusicNoteIcon from './MusicNoteIcon';
+import LightningBoltIcon from './LightningBoltIcon';
 
 const iconComponents: Record<string, React.FC<any>> = {
   StarIcon,
@@ -18,7 +19,8 @@ const iconComponents: Record<string, React.FC<any>> = {
   PlanetIcon,
   CoffeeIcon,
   BookIcon,
-  MusicNoteIcon
+  MusicNoteIcon,
+  LightningBoltIcon
 };
 
 export default iconComponents;
