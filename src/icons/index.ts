@@ -14,6 +14,7 @@ import PortalDiscIcon from './PortalDiscIcon';
 import SpiralIcon from './SpiralIcon';
 import FireworksIcon from './FireworksIcon';
 import PaperAirplaneIcon from './PaperAirplaneIcon';
+import WaveIcon from './WaveIcon';
 
 const iconComponents: Record<string, React.FC<any>> = {
   StarIcon,
@@ -30,7 +31,8 @@ const iconComponents: Record<string, React.FC<any>> = {
   PortalDiscIcon,
   SpiralIcon,
   FireworksIcon,
-  PaperAirplaneIcon
+  PaperAirplaneIcon,
+  WaveIcon
 };
 
 export default iconComponents;
