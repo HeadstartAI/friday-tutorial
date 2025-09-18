@@ -1,5 +1,13 @@
 [
   {
+    "componentName": "HelixIcon",
+    "contributor": "anishpras",
+    "date": "2025-01-19T11:29:00.000Z",
+    "githubUsername": "anishpras",
+    "id": "helix-icon",
+    "message": "Greetings from the helix!"
+  },
+  {
     "componentName": "PaperAirplaneIcon",
     "contributor": "kenjamin",
     "date": "2025-01-14T18:30:19.000Z",
