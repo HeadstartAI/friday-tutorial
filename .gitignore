@@ -5,6 +5,7 @@ node_modules/
 build/
 dist/
 .next/
+next-env.d.ts
 
 # Environment variables
 .env
