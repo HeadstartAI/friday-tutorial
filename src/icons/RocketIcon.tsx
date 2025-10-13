@@ -9,8 +9,15 @@ const RocketIcon: React.FC<IconProps> = ({ color = "currentColor", ...props }) =
       fill={color}
       {...props}
     >
-      <path d="M12 2c-1.5 3-3 5-3 8 0 1.5.5 3 1.5 4l-3 3c-.5.5-.5 1 0 1.5l1 1c.5.5 1 .5 1.5 0l3-3c1 1 2.5 1.5 4 1.5 3 0 5-1.5 8-3-4-4-8-8-12-12zm2 10c-.5 0-1-.5-1-1s.5-1 1-1 1 .5 1 1-.5 1-1 1z"/>
-      <path d="M5 19c-1 1-2 2-2 3 0 .5.5 1 1 1 1 0 2-1 3-2l-2-2z"/>
+      <path d="M12 2L9 9h6l-3-7z"/>
+      <rect x="9" y="9" width="6" height="8" rx="0.5"/>
+      <circle cx="12" cy="12" r="1.5" fill="white" opacity="0.8"/>
+      <path d="M7 14L9 17v3l-2-6z"/>
+      <path d="M17 14L15 17v3l2-6z"/>
+      <path d="M10 20v2c0 0.5 0.5 1 1 1h2c0.5 0 1-0.5 1-1v-2h-4z"/>
+      <ellipse cx="10.5" cy="21" rx="0.8" ry="1.2" fill="#ff6b35" opacity="0.7"/>
+      <ellipse cx="13.5" cy="21" rx="0.8" ry="1.2" fill="#ff6b35" opacity="0.7"/>
+      <ellipse cx="12" cy="22" rx="1" ry="1.5" fill="#ffa500" opacity="0.6"/>
     </svg>
   );
 };
