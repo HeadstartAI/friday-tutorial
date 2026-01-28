@@ -125,5 +125,13 @@
     "githubUsername": "HeadstartAI",
     "id": "star-icon",
     "message": "First one to sign the guestbook! I created this star icon to light up your day. Hope you like it!"
+  },
+  {
+    "componentName": "MountainIcon",
+    "contributor": "Kane Norman",
+    "date": "2026-01-28T00:00:00.000Z",
+    "githubUsername": "kanenorman",
+    "id": "mountain-icon",
+    "message": "Onwards and upwards!"
   }
 ]
