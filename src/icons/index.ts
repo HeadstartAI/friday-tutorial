@@ -15,6 +15,8 @@ import SpiralIcon from './SpiralIcon';
 import FireworksIcon from './FireworksIcon';
 import PaperAirplaneIcon from './PaperAirplaneIcon';
 import RocketIcon from './RocketIcon';
+import ButterflyIcon from './ButterflyIcon';
+import CubeIcon from './CubeIcon';
 
 const iconComponents: Record<string, React.FC<any>> = {
   StarIcon,
@@ -32,7 +34,9 @@ const iconComponents: Record<string, React.FC<any>> = {
   SpiralIcon,
   FireworksIcon,
   PaperAirplaneIcon,
-  RocketIcon
+  RocketIcon,
+  ButterflyIcon,
+  CubeIcon
 };
 
 export default iconComponents;
