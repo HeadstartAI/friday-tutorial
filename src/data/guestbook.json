@@ -1,5 +1,13 @@
 [
   {
+    "componentName": "BridgeIcon",
+    "contributor": "Blake Shannon",
+    "date": "2026-02-13T12:00:00.000Z",
+    "githubUsername": "blakeshannon",
+    "id": "bridge-icon",
+    "message": "hi its blake"
+  },
+  {
     "componentName": "RocketIcon",
     "contributor": "Mobo",
     "date": "2025-01-13T12:00:00.000Z",
