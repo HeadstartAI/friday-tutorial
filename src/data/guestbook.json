@@ -125,5 +125,13 @@
     "githubUsername": "HeadstartAI",
     "id": "star-icon",
     "message": "First one to sign the guestbook! I created this star icon to light up your day. Hope you like it!"
+  },
+  {
+    "componentName": "KatyWaveIcon",
+    "contributor": "Katy",
+    "date": "2026-02-17T12:00:00.000Z",
+    "githubUsername": "katycarr",
+    "id": "katy-wave-icon",
+    "message": "Waving hello to the team!"
   }
 ]
