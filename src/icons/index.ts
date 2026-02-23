@@ -1,4 +1,5 @@
 import React from 'react';
+import KiteIcon from './KiteIcon';
 import StarIcon from './StarIcon';
 import SmileyIcon from './SmileyIcon';
 import CompassIcon from './CompassIcon';
@@ -17,6 +18,7 @@ import PaperAirplaneIcon from './PaperAirplaneIcon';
 import RocketIcon from './RocketIcon';
 
 const iconComponents: Record<string, React.FC<any>> = {
+  KiteIcon,
   StarIcon,
   SmileyIcon,
   CompassIcon,
