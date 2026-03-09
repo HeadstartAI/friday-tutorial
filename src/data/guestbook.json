@@ -1,5 +1,13 @@
 [
   {
+    "componentName": "GearRocketIcon",
+    "contributor": "lboileau",
+    "date": "2026-03-09T12:00:00.000Z",
+    "githubUsername": "lboileau",
+    "id": "gear-rocket-icon",
+    "message": "It's a brave new world. Are you ready?"
+  },
+  {
     "componentName": "RocketIcon",
     "contributor": "Mobo",
     "date": "2025-01-13T12:00:00.000Z",
