@@ -1,5 +1,13 @@
 [
   {
+    "componentName": "EmpireStateBuildingIcon",
+    "contributor": "Pate",
+    "date": "2026-05-18T12:00:00.000Z",
+    "githubUsername": "pate",
+    "id": "empire-state-building-icon",
+    "message": "Hello from NYC, the city that never sleeps"
+  },
+  {
     "componentName": "RocketIcon",
     "contributor": "Mobo",
     "date": "2025-01-13T12:00:00.000Z",
